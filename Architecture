@@ -1,0 +1,63 @@
+ Source System
+                         |
+                         |
+              Daily Incremental CSV Files
+                         |
+                         |
+        -----------------------------------
+        |          CSV Files              |
+        -----------------------------------
+        |
+        |
+        v
+
+                  Raw Layer
+    
+        Tables:
+        - RAW_CUSTOMERS
+        - RAW_ORDERS
+        - RAW_ORDER_ITEMS
+        - RAW_PRODUCTS
+        - RAW_PAYMENTS
+
+                         |
+                         |
+                         v
+
+                Staging Layer
+
+        Tables:
+        - STG_CUSTOMERS
+        - STG_ORDERS
+        - STG_ORDER_ITEMS
+        - STG_PRODUCTS
+        - STG_PAYMENTS
+
+                         |
+                         |
+                         v
+
+              Data Warehouse Layer
+ 
+        Tables:
+        - DIM_CUSTOMER
+        - DIM_PRODUCT
+        - FACT_ORDERS
+        - FACT_ORDER_ITEMS
+
+                         |
+                         |
+                         v
+
+                    Data Mart
+     
+        Tables:
+        - MART_DAILY_SALES
+        - MART_CUSTOMER_PURCHASE_SUMMARY
+        - MART_PRODUCT_PERFORMANCE
+
+                         |
+                         |
+                         v
+
+              BI Dashboard / Analytics
