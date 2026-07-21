@@ -15,7 +15,7 @@ Technology Stack
 | Cloud Data Warehouse | Snowflake      |
 | Transformation       | dbt            |
 | Programming Language | SQL            |
-| Orchestration        | Apache Airflow |
+| Orchestration        | Airflow        |
 | Data Processing      | Python         |
 | Version Control      | GitHub         |
 | Data Quality         | dbt Tests      |
